@@ -14,6 +14,7 @@ const NavBar = () => {
         <Nav.Link href="#productos">Productos</Nav.Link>
         <Nav.Link href="#contacto">Contacto</Nav.Link>
       </Nav>
+      <CartWidget/>
     </Container>
   </Navbar>
 );
