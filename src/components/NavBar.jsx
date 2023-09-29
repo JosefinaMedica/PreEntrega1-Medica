@@ -1,25 +1,21 @@
 import CartWidget from './CartWidget';
-import './NavBar.css';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
-export const NavBar = () => {
+
+const NavBar = () => {
   return (
-    <nav>
-    <div>
-      <span className="navbar-brand">La Provece</span>
-      <ul>
-        <li>
-          <a href="#nosotros">Nosotros</a>
-        </li>
-        <li>
-          <a href="#productos">Productos</a>
-        </li>
-        <li>
-          <a href="#contacto">Contacto</a>
-        </li>
-      </ul>
-      <CartWidget />
-    </div>
-  </nav>
+    <Navbar bg="light" data-bs-theme="light">
+    <Container>
+      <Navbar.Brand href="#home">La Provence</Navbar.Brand>
+      <Nav className="me-auto">
+        <Nav.Link href="#nosotros">Nosotros</Nav.Link>
+        <Nav.Link href="#productos">Productos</Nav.Link>
+        <Nav.Link href="#contacto">Contacto</Nav.Link>
+      </Nav>
+    </Container>
+  </Navbar>
 );
 };
 

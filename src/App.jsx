@@ -5,11 +5,11 @@ import  CartWidget  from './components/CartWidget';
 function App() {
   const cartItemCount = 1;
   return (
-    <div className="App">
-      <NavBar />
+    <>
+      <NavBar/>
       <CartWidget itemCount={cartItemCount} />
       <ItemListContainer greeting="Hola, somos La Provence" />
-    </div>
+    </>
   );
 }
 
