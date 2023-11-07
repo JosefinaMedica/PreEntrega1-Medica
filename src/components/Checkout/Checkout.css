@@ -1,0 +1,50 @@
+
+
+.checkout-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 20px; 
+}
+
+.checkout-content {
+    width: 100%;
+    max-width: 400px; 
+    text-align: center;
+    background-color: #f7f7f7; 
+    border: 1px solid #ccc; 
+    padding: 20px; 
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333; 
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #333; 
+}
+
+button {
+    background-color: #666; 
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #444; 
+}

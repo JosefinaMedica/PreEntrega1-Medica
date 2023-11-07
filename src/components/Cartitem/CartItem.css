@@ -1,0 +1,28 @@
+
+.cart-item {
+    text-align: center;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+}
+
+.cart-item h4 {
+    margin: 0;
+}
+
+.cart-item p {
+    margin: 5px 0;
+}
+
+.cart-item button.miBtn {
+    background-color: #666;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.cart-item button.miBtn:hover {
+    background-color: #444;
+}

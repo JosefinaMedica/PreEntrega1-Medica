@@ -1,26 +1,20 @@
 .miBtn {
-    background-color: #c1101a;
-    border: none;
     color: white;
-    padding: 10px 20px;
-    text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin: 5px;
+    margin: 10px;
     cursor: pointer;
 }
 
 p {
-    font-size: 24px;
-    font-weight: bold;
-    margin: 0 10px;
+    font-size: 15px;
+    margin: 0 5px;
 }
 
 
 
 .miBtn {
-    background-color: #c1101a;
+    background-color: #727171;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -33,5 +27,5 @@ p {
   }
   
   .miBtn:hover {
-    background-color: #a10814;
+    background-color: #696868;
   }
